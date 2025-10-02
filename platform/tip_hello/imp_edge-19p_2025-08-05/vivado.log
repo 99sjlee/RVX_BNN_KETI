@@ -1,0 +1,136 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Oct  2 14:57:11 2025
+# Process ID: 10307
+# Current directory: /home/sjlee/2507_keti_bnn_riscv/platform/tip_hello/imp_edge-19p_2025-08-05
+# Command line: vivado -mode batch -source /home/sjlee/2507_keti_bnn_riscv/rvx_devkit/env/xilinx/program_fpga.tcl
+# Log file: /home/sjlee/2507_keti_bnn_riscv/platform/tip_hello/imp_edge-19p_2025-08-05/vivado.log
+# Journal file: /home/sjlee/2507_keti_bnn_riscv/platform/tip_hello/imp_edge-19p_2025-08-05/vivado.jou
+# Running On: sjlee, OS: Linux, CPU Frequency: 2995.199 MHz, CPU Physical cores: 11, Host memory: 16513 MB
+#-----------------------------------------------------------
+source /home/sjlee/2507_keti_bnn_riscv/rvx_devkit/env/xilinx/program_fpga.tcl
+# set define_list {}
+# source ./set_path.tcl
+## set RVX_ENV /home/sjlee/2507_keti_bnn_riscv/rvx_devkit/env
+## set PLATFORM_DIR /home/sjlee/2507_keti_bnn_riscv/platform/tip_hello
+## set FPGA_NAME edge-19p
+## set FPGA_DEPENDENT_DIR /home/sjlee/2507_keti_bnn_riscv/rvx_install/mini_git/imp_class_info/edge-19p
+## set RVX_HWLIB_HOME /home/sjlee/2507_keti_bnn_riscv/rvx_hwlib
+## set RVX_SPECIAL_IP_HOME None
+## set MUNOC_HW_HOME /home/sjlee/2507_keti_bnn_riscv/rvx_hwlib/munoc
+# source ./set_design.tcl
+## set FPGA_NAME edge-19p
+## set GENERATED_TOP_MODULE TIP_HELLO_FPGA
+## set USER_TOP_FILE ${PLATFORM_DIR}/user/fpga/${FPGA_NAME}/set_top_module.tcl
+## set USER_COMMON_TOP_FILE ${PLATFORM_DIR}/user/fpga/common/set_top_module.tcl
+## if {[file exist ${USER_TOP_FILE}]} {
+## 	source ${USER_TOP_FILE}
+## } elseif {[file exist ${USER_COMMON_TOP_FILE}]} {
+## 	source ${USER_COMMON_TOP_FILE}
+## } else {
+## 	set TOP_MODULE ${GENERATED_TOP_MODULE}
+## }
+## set PROJECT_NAME [string tolower ${TOP_MODULE}]
+## set BIT_FILE_NAME ${PROJECT_NAME}.${FPGA_NAME}
+## set IMP_MODE release
+# source ${RVX_ENV}/xilinx/__set_env.tcl
+## source ${RVX_ENV}/xilinx/util.tcl
+### proc glob_wo_error { pattern } {
+### 	if [ catch { set temp [glob $pattern] } msg ] {
+### 		set result {}
+### 	} else {
+### 		set result $temp
+### 	}
+### 	return $result
+### }
+### proc concat_file_list { conv_list pattern} {
+### 	return [concat $conv_list [glob_wo_error $pattern]]
+### }
+### proc touch { path } {
+### 	if {[file exist $path]==0} {
+### 		close [open $path w]
+### 	}
+### }
+## set ENV_DIR ${RVX_ENV}/xilinx
+## set CURRENT_DIR [pwd]
+## set IMP_RESULT_DIR ${CURRENT_DIR}/imp_result
+## set ILA_RESULT_DIR ${CURRENT_DIR}/ila
+## set SYN_ENV_FILE ./set_fpga_syn_env.tcl
+## set SYN_COMMON_LIB_ENV_FILE ${RVX_HWLIB_HOME}/lib_fpga/env/set_syn_env.tcl
+## set SYN_LIB_ENV_FILE ${FPGA_DEPENDENT_DIR}/env/set_syn_env.tcl
+## set IMP_ENV_FILE ./set_fpga_imp_env.tcl
+## set IMP_LIB_ENV_FILE ${FPGA_DEPENDENT_DIR}/env/set_imp_env.tcl
+## set TOOL_OPTION_FILE ./set_tool_option.tcl
+## set MANUAL_SYN_IMPDIR_FILE ./syn_manually.tcl
+## set MANUAL_PNR_IMPDIR_FILE ./pnr_manually.tcl
+## set MANUAL_SYN_USER_FILE ${PLATFORM_DIR}/user/fpga/${FPGA_NAME}/syn_manually.tcl
+## set MANUAL_PNR_USER_FILE ${PLATFORM_DIR}/user/fpga/${FPGA_NAME}/pnr_manually.tcl
+# if [string equal $IMP_MODE "debug"] {
+# 	start_gui
+# }
+# open_hw_manager
+# connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.2
+  **** Build date : Oct 13 2023 at 20:26:23
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 10 2023-13:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+# current_hw_server [get_hw_servers]
+# disconnect_hw_server
+# connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 10 2023-13:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+# current_hw_server [get_hw_servers]
+# open_hw_target [get_hw_targets]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210251433448
+# current_hw_device [get_hw_devices]
+# refresh_hw_device -update_hw_probes false
+INFO: [Labtools 27-1435] Device xcku19p (JTAG device index = 0) is not programmed (DONE status = 0).
+# if [string equal $IMP_MODE "debug"] {
+# 	set_property PROGRAM.FILE ${IMP_RESULT_DIR}/${BIT_FILE_NAME}.bit [current_hw_device]
+# 	set_property PROBES.FILE ${IMP_RESULT_DIR}/${BIT_FILE_NAME}.ltx [current_hw_device]
+# 	program_hw_devices
+# 	refresh_hw_device
+# 	display_hw_ila_data
+# } else {
+# 	set_property PROGRAM.FILE ${IMP_RESULT_DIR}/${BIT_FILE_NAME}.bit [current_hw_device]
+# 	program_hw_devices
+# 	close_hw_target
+# 	disconnect_hw_server
+# }
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1410.285 ; gain = 1.000 ; free physical = 12600 ; free virtual = 18404
+INFO: [Labtoolstcl 44-464] Closing hw_target localhost:3121/xilinx_tcf/Digilent/210251433448
+INFO: [Common 17-206] Exiting Vivado at Thu Oct  2 14:57:41 2025...

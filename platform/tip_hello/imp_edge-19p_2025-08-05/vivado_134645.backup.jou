@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Sep 24 19:15:26 2025
+# Process ID: 134645
+# Current directory: /home/sjlee/2507_keti_bnn_riscv/platform/tip_hello/imp_edge-19p_2025-08-05
+# Command line: vivado -mode batch -source /home/sjlee/2507_keti_bnn_riscv/rvx_devkit/env/xilinx/program_fpga.tcl
+# Log file: /home/sjlee/2507_keti_bnn_riscv/platform/tip_hello/imp_edge-19p_2025-08-05/vivado.log
+# Journal file: /home/sjlee/2507_keti_bnn_riscv/platform/tip_hello/imp_edge-19p_2025-08-05/vivado.jou
+# Running On: sjlee, OS: Linux, CPU Frequency: 2995.200 MHz, CPU Physical cores: 11, Host memory: 16513 MB
+#-----------------------------------------------------------
+source /home/sjlee/2507_keti_bnn_riscv/rvx_devkit/env/xilinx/program_fpga.tcl

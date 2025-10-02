@@ -1,0 +1,3 @@
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'PEA' [/home/sjlee/2507_keti_bnn_riscv/platform/tip_hello/user/rtl/src/01_BNN_IP/01_rtl/00_Top/NNP_IP/pe/PEA_v7_512.v:375]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'PER' [/home/sjlee/2507_keti_bnn_riscv/platform/tip_hello/user/rtl/src/01_BNN_IP/01_rtl/00_Top/NNP_IP/pe/PER_v7_512.v:278]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'PE' [/home/sjlee/2507_keti_bnn_riscv/platform/tip_hello/user/rtl/src/01_BNN_IP/01_rtl/00_Top/NNP_IP/pe/PE_v12_512.v:714]

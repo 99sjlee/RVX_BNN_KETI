@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<rvx_log>
+  <date>2025-10-02 14:58:49</date>
+  <rvx_job name="logfile_setup" status="done" is_local="True" is_file="False" is_user="False"/>
+  <rvx_job name="app_build" status="done" is_local="True" is_file="True" is_user="True">rvx_app_build.log</rvx_job>
+  <rvx_job name="engine" status="done" is_local="True" is_file="False" is_user="False"/>
+</rvx_log>

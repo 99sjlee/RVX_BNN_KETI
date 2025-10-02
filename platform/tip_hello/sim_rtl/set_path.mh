@@ -1,0 +1,3 @@
+RVX_HWLIB_HOME=/home/sjlee/2507_keti_bnn_riscv/rvx_hwlib
+RVX_SPECIAL_IP_HOME=None
+MUNOC_HW_HOME=/home/sjlee/2507_keti_bnn_riscv/rvx_hwlib/munoc
